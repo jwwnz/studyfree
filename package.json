@@ -1,0 +1,23 @@
+{ "name": "studentperks",
+  "version": "1.0.0",
+  "description": "Simple application linking to free links for students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwwnz/weeklysmash.git"
+  },
+  "author": "J Won",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwwnz/weeklysmash/issues"
+  },
+  "homepage": "https://github.com/jwwnz/weeklysmash#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0"
+  }
+}

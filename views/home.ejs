@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student links</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $(function() {
+      $("#tabs").tabs();
+    });
+  </script>
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">WeeklySmash for UOA students!</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="#">Link</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Free studying software</a></li>
+        <li><a href="#tabs-2">Food discounts</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>
+          <ul>
+            <% software[1].name %>
+
+
+              <% for (var i =0; i < software.length; i++){ %>
+                <% if (software[i].name.length != 0){ %>
+
+                <li>
+                  <a href="<%= software[i].linkdown %>">
+                    <h3><%= software[i].brand + " " + software[i].name %></h3>
+                  </a>
+                </li>
+
+                <% } %>
+
+                <% } %>
+
+          </ul>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+{
+  "software": [{
+      "brand": "Microsoft",
+      "name": "Office 365",
+      "linkdown": "https://www.library.auckland.ac.nz/services/it-essentials/computer-facilities/software-purchase-or-download/office-365",
+      "linkkey": "N/A",
+      "requirements": "UOA Student",
+      "type": "productivity",
+      "cost": "free",
+      "retailprice": "$119 per year"
+    }, {
+      "brand": "Microsoft",
+      "name": "Access 2016",
+      "linkdown": "https://software.isom.auckland.ac.nz/Software/Details/66bd7ae0-d5d3-4c34-93d6-2aab2878b532",
+      "linkkey": "https://software.isom.auckland.ac.nz/Software/Key/66bd7ae0-d5d3-4c34-93d6-2aab2878b532",
+      "requirements": "UOA Student",
+      "type": "productivity",
+      "cost": "Free",
+      "retailprice": "$200 per year"
+    }, {
+      "brand": "Microsoft",
+      "name": "Office Project 2016 Professional",
+      "linkdown": "https://software.isom.auckland.ac.nz/Software/Details/20f78afc-3cf0-4613-92b7-3b723967d741",
+      "linkkey": "https://software.isom.auckland.ac.nz/Software/Key/20f78afc-3cf0-4613-92b7-3b723967d741",
+      "requirements": "UOA student",
+      "type": "productivity",
+      "cost": "Free",
+      "retailprice": "$2,399"
+    }, {
+      "brand": "Microsoft",
+      "name": "Visual Studio Enterprise 2015",
+      "linkdown": "https://software.isom.auckland.ac.nz/Software/Details/a4186903-67a9-40af-9072-d7cc3d6604f1",
+      "linkkey": "https://software.isom.auckland.ac.nz/Software/Key/a4186903-67a9-40af-9072-d7cc3d6604f1",
+      "requirements": "UOA student",
+      "type": "productivity",
+      "cost": "Free",
+      "retailprice": "$525 USD"
+    }, {
+      "brand": "Microsoft",
+      "name": "Windows 10 Education",
+      "linkdown": "https://software.isom.auckland.ac.nz/Software/Details/9308e6f0-38a0-4d4f-8baf-a3d0c3c19a39",
+      "linkkey": "https://software.isom.auckland.ac.nz/Software/Key/9308e6f0-38a0-4d4f-8baf-a3d0c3c19a39",
+      "requirements": "UOA student",
+      "type": "OS",
+      "cost": "Free",
+      "retailprice": "$199"
+    }, {
+      "brand": "Microsoft",
+      "name": "Windows 8.1 32-bit (x86)",
+      "linkdown": "https://software.isom.auckland.ac.nz/Software/Details/b34afeff-7fb4-4ccc-8386-0dbb4360e4b0",
+      "linkkey": "https://software.isom.auckland.ac.nz/Software/Key/b34afeff-7fb4-4ccc-8386-0dbb4360e4b0",
+      "requirements": "UOA student",
+      "type": "OS",
+      "cost": "Free",
+      "retailprice": "$199"
+    }, {
+      "brand": "Microsoft",
+      "name": "Windows 8.1 64-bit (x64)",
+      "linkdown": "https://software.isom.auckland.ac.nz/Software/Details/8b7cf06d-58cb-4600-b188-00304bbe067b",
+      "linkkey": "https://software.isom.auckland.ac.nz/Software/Key/8b7cf06d-58cb-4600-b188-00304bbe067b",
+      "requirements": "UOA student",
+      "type": "OS",
+      "cost": "Free",
+      "retailprice": "$199"
+    }, {
+      "brand": "Microsoft",
+      "name": "Windows Azure",
+      "linkdown": "https://e5.onthehub.com/WebStore/OfferingDetails.aspx?o=98a24997-f5b7-e611-9423-b8ca3a5db7a1&ws=0eec765b-816f-e011-971f-0030487d8897&vsro=8",
+      "linkkey": "",
+      "requirements": "UOA student",
+      "type": "programming",
+      "cost": "Free",
+      "retailprice": ""
+    }, {
+      "brand": "",
+      "name": "AIMMS",
+      "linkdown": "https://software.isom.auckland.ac.nz/Software/Details/1f11142e-4b7e-420d-b23c-97eff334930d",
+      "linkkey": "",
+      "requirements": "UOA student",
+      "type": "data-modelling",
+      "cost": "Free",
+      "retailprice": "$2,480 AUD per year"
+    }, {
+      "brand": "",
+      "name": "Endnote X8",
+      "linkdown": "https://auckland.onthehub.com/WebStore/OfferingDetails.aspx?o=e9cef5e3-d5b8-e611-9423-b8ca3a5db7a1&vsro=8",
+      "linkkey": "",
+      "requirements": "UOA student",
+      "type": "reference",
+      "cost": "$7",
+      "retailprice": "$363"
+    }, {
+      "brand": "",
+      "name": "IBM SPSS (various models)",
+      "linkdown": "https://auckland.onthehub.com/WebStore/ProductSearchOfferingList.aspx?srch=spss",
+      "linkkey": "",
+      "requirements": "UOA student",
+      "type": "data-modeling",
+      "cost": "Ranges from free - $15",
+      "retailprice": "Ranges from $811 USD - $11,600 USD per year"
+    }, {
+      "brand": "",
+      "name": "Unity Engine Personal version",
+      "linkdown": "https://store.unity.com/download?ref=personal",
+      "linkkey": "",
+      "requirements": "Students (general) or personal users lower than 100 USD in revenue",
+      "type": "game-development",
+      "cost": "Free",
+      "retailprice": ""
+    }, {
+      "brand": "Tableau",
+      "name": "",
+      "linkdown": "https://www.tableau.com/academic/students",
+      "linkkey": "",
+      "requirements": "Requires a student email",
+      "type": "data-modelling",
+      "cost": "Free",
+      "retailprice": "$35 USD per month"
+    }, {
+      "brand": "Jetbrains software (including CLion, IntelliJ, PyCharm, PhpStorm, WebStorm)",
+      "name": "",
+      "linkdown": "",
+      "linkkey": "",
+      "requirements": "Requires a student email",
+      "type": "IDE",
+      "cost": "Free",
+      "retailprice": "$649 USD per year"
+    }, {
+      "brand": "AutoCAD",
+      "name": "",
+      "linkdown": "https://www.autodesk.com/education/free-software/autocad",
+      "linkkey": "",
+      "requirements": "Requires a student email",
+      "type": "engineering",
+      "cost": "Free",
+      "retailprice": "$2,480 AUD per year"
+    }, {
+      "brand": "",
+      "name": "",
+      "linkdown": "",
+      "linkkey": "",
+      "requirements": "",
+      "type": "",
+      "cost": "",
+      "retailprice": ""
+    }]
+}
