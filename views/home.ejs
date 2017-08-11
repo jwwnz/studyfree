@@ -3,8 +3,11 @@
 
 <head>
   <title>Student links</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
@@ -24,14 +27,17 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a href="#" class="navbar-brand">WeeklySmash for UOA students!</a>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color: #e3f2fd;">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">StudyFree</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link disabled" href="#">Categories</a>
+        <a class="nav-item nav-link disabled" href="#">Food</a>
       </div>
-      <ul class="nav navbar-nav">
-        <!-- <li><a href="#">Link</a></li> -->
-      </ul>
     </div>
   </nav>
 
@@ -43,29 +49,63 @@
       </ul>
       <div id="tabs-1">
         <p>
-          <ul>
-            <% software[1].name %>
+          <!-- <ul> -->
+
+          <div class="card-group">
 
 
-              <% for (var i =0; i < software.length; i++){ %>
-                <% if (software[i].name.length != 0){ %>
 
-                <li>
-                  <a href="<%= software[i].linkdown %>">
-                    <h3><%= software[i].brand + " " + software[i].name %></h3>
-                  </a>
-                </li>
+            <% for (var i =0; i < software.length; i++){ %>
+              <% if (software[i].name.length != 0){ %>
 
-                <% } %>
+                <div class="card card-outline-success">
+                  <img class="card-img-top" src="..." alt="Card image cap" width="260em" height="180em">
+                  <div class="card-block">
+                    <a href="<%= software[i].linkdown %>">
+                      <h4 class="card-title"><%= software[i].brand + " " + software[i].name %></h4>
+                    </a>
+                    <ul>
 
-                <% } %>
+            
 
-          </ul>
+                      <li>Instructions: download the file from <a href="<%= software[i].linkdown %>">here</a><% if (software[i].linkkey != ""){ %> and follow the instructions to get the key <a href="<%= software[i].linkdown %>"> here </a> <% } %></li>
+                      <li>sdfdsfdsf</li>
+                    </ul>
+
+
+                    <p class="card-text">This is <%= software[i].brand + " " + software[i].name %>. Restrictions: <%= software[i].requirements %>. This a <%= software[i].type %> app</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+
+                  <!-- <div class="card card-outline-primary mb-3 text-center">
+                    <div class="card-block">
+                      <blockquote class="card-blockquote">
+                        <a href="<%= software[i].linkdown %>">
+                          <h4 class="card-title"><%= software[i].brand + " " + software[i].name %></h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div> -->
+
+
+                  <!-- <a href="<%= software[i].linkdown %>">
+                      <h3><%= software[i].brand + " " + software[i].name %></h3>
+                    </a> -->
+
+
+                  <% } %>
+
+                    <% } %>
+                </div>
         </p>
+        </div>
       </div>
-    </div>
 
-  </div>
+    </div>
 </body>
 
 </html>
